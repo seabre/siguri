@@ -44,7 +44,6 @@
       if (siguri_cookie && siguri_cookie === "SIGURI_HIDE") {
         setCookie("SIGURI_COOKIE", "SIGURI_UNHIDE", 9999);
       }
-      alert("made it.");
       return location.reload();
     }
   };
