@@ -32,7 +32,6 @@ unhide_if_keyspressed = (evt) ->
     siguri_cookie = getCookie("SIGURI_COOKIE")
     if siguri_cookie and siguri_cookie == "SIGURI_HIDE"
       setCookie("SIGURI_COOKIE","SIGURI_UNHIDE",9999)
-    alert("made it.")
     location.reload()
 
 @siguri = (url, title) ->
